@@ -1,0 +1,120 @@
+.bug-item {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.bug-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.bug-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.bug-header h3 {
+  margin: 0;
+  color: #333;
+  flex: 1;
+}
+
+.bug-badges {
+  display: flex;
+  gap: 8px;
+}
+
+.status-badge,
+.priority-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-open {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.status-in-progress {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.status-resolved {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
+.priority-low {
+  background-color: #f5f5f5;
+  color: #757575;
+}
+
+.priority-medium {
+  background-color: #fff9c4;
+  color: #f57f17;
+}
+
+.priority-high {
+  background-color: #ffe0b2;
+  color: #e65100;
+}
+
+.priority-critical {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+
+.bug-description {
+  color: #666;
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+.bug-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.bug-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.status-select {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  padding: 8px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}

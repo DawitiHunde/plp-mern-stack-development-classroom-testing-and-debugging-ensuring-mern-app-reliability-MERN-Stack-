@@ -1,0 +1,27 @@
+.bug-list {
+  margin-top: 30px;
+}
+
+.bug-list h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.bug-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bug-list-empty {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.bug-list-empty p {
+  font-size: 1.2rem;
+  color: #666;
+}

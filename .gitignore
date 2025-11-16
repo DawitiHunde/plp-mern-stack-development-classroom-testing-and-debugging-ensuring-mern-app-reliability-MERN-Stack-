@@ -22,7 +22,6 @@ dist/
 *.log
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
